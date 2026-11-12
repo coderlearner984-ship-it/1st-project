@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body style="font-family: sans-serif; text-align: center; margin-top: 50px;">
+  <h2>Cek Nasib</h2>
+  <input id="nameInput" placeholder="Ketik namamu..." />
+  <button onclick="cek()">Cek</button>
+  <p id="hasil" style="font-weight: bold; margin-top: 20px;"></p>
+
+  <script>
+    function cek() {
+      const name = document.getElementById('nameInput').value.trim();
+      const hasil = document.getElementById('hasil');
+      if (name === 'Daffa') {
+        hasil.innerText = "Kau karbit, dengarin 'optimistic' sana";
+      } else {
+        hasil.innerText = "Salah nama! Coba pakai 'f' sesuai huruf di namamu!";
+      }
+    }
+  </script>
+</body>
+</html>
