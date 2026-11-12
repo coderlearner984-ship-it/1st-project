@@ -1,0 +1,7 @@
+Name = 'Daffa'
+if Name == 'Daffa':
+    print("Kau karbit, dengarin 'optimistic' sana")
+elif Name == 'Iqbal':
+    print('Hai, reng')
+elif Name == 'Taufik':
+    print('Penyinggahan ga bisa singgah')
