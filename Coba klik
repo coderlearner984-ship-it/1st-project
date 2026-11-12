@@ -1,0 +1,5 @@
+Name = 'Daffa'
+if Name == 'Daffa':
+    print("Kau karbit, dengarin 'optimistic' sana")
+else:
+    ('Salah nama! Coba pakai "f" sesuai huruf di namamu!')
